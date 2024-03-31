@@ -1,0 +1,82 @@
+body {
+    background-image: url('electronics.jpg');
+    background-size: cover; /* Adjust the size of the background image to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.dropdown{
+    color: white;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(7, 7, 54) ; /* Background color for the form container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+    color: white; /* Set text color to white */
+}
+.textarea{
+    background-color:black;
+}
+/* Set text color to white for form controls */
+.form-control,
+.input-radio,
+.input-checkbox,
+.form-group {
+    color: white;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style text boxes in white color */
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: black; /* White color for text boxes */
+}
+
+/* Align checkboxes and radio buttons in a vertical layout */
+.input-radio,
+.input-checkbox {
+    margin-bottom: 10px;
+}
+/* Style the checkboxes to be inline with the text */
+/* Style the checkboxes to be inline with the text */
+
+.inline {
+    color:white;
+    display: inline-flex; /* Set checkboxes to display inline */
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+/* Style the checkboxes to be inline with the text */
+
+
+/* Style the submit button */
+.submit-button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
